@@ -86,10 +86,10 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name:"Mui",
-      icon:mui
-    },
+    // {
+    //   name:"Mui",
+    //   icon:mui
+    // },
     // {
     //   name: "Node JS",
     //   icon: nodejs,
