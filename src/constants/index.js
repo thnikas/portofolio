@@ -63,29 +63,29 @@ import {
     //   name: "Redux Toolkit",
     //   icon: redux,
     // },
-    // {
+    {
 
-    //   name:"NextJs",
-    //   icon:nextJs
-    // },
-    // {
-    //   name:"Firebase",
-    //   icon:firebase
-    // },
-    // { name:"Sanity",
-    //   icon:sanity
-    // },
-    // { name:"Grafbase",
-    //   icon:grafbase
-    // },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
-    // {
-    //   name: "Tailwind CSS",
-    //   icon: tailwind,
-    // },
+      name:"NextJs",
+      icon:nextJs
+    },
+    {
+      name:"Firebase",
+      icon:firebase
+    },
+    { name:"Sanity",
+      icon:sanity
+    },
+    { name:"Grafbase",
+      icon:grafbase
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
     // {
     //   name:"Mui",
     //   icon:mui
