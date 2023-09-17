@@ -11,6 +11,7 @@ import ContactImg from './ContactImg'
 const Contact = () => {
   const formRef=useRef()
   const isSmallDevice = window.innerWidth <= 768; // Adjust the breakpoint as needed
+  const height=window.innerHeight
 
   const [form, setForm]=useState({name:'',email:"",message:''})
   const [loading, setLoading]=useState(false)
@@ -61,7 +62,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 ' style={{flexDirection:isSmallDevice?'column-reverse':'inherit'}}>
+    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 ' style={{flexDirection:isSmallDevice?'column-reverse':'inherit',paddingTop:isSmallDevice?height*0.1:0}}>
       <motion.div variants={slideIn('left','tween',0.2,1)}
       className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
         <p className={styles.sectionSubText}>

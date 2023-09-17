@@ -3,7 +3,7 @@ import { astro, cvIcon, emIcon, lnIcon, whIcon } from '../assets'
 import resume from '../assets/thomas_nika.pdf'
 const ContactImg = () => {//custom svg 
   const isSmallDevice = window.innerWidth <= 768; // Adjust the breakpoint as needed
-
+  const height=window.innerHeight
   return (
     <div className="w-80 h-80 relative lg:bottom-0 bottom-[10rem] ">
 
