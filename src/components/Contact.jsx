@@ -106,7 +106,7 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
-      <motion.div //custom astro svg
+      {/* <motion.div //custom astro svg
               animate={{
                 y: [0, 40, 0],
               }}
@@ -116,7 +116,7 @@ const Contact = () => {
                 repeatType: "loop",
               }}
                className='pt-[10%] pl-[3rem] h-40 w-40 lg:h-80 lg:w-80'
-            > <ContactImg/></motion.div>
+            > <ContactImg/></motion.div> */}
     
       
     </div>
