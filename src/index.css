@@ -213,11 +213,11 @@
   font-family: "Roboto";
 }
 .overviewC{
-  margin-top: -4rem;
+  margin-top: -14rem;
 }
 @media (max-width: 768px) {
   .overviewC {
-    margin-top: -11rem;
+    margin-top: -22rem;
 
   }
 }

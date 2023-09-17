@@ -72,16 +72,16 @@ import {
       name:"Firebase",
       icon:firebase
     },
-    { name:"Sanity",
-      icon:sanity
-    },
+    // { name:"Sanity",
+    //   icon:sanity
+    // },
     { name:"Grafbase",
       icon:grafbase
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,

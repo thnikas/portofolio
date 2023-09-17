@@ -42,7 +42,6 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {//ball com used to show the technologies
   return (
     <Canvas
-          frameloop='demand'
 
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
