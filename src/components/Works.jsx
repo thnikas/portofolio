@@ -19,20 +19,23 @@ const ProjectCard=({index,name,description, tags, image, source_code_link,page_s
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full ' 
       >
-        <div className="relative w-full h-[230px]" >
-          <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl"/>
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-2">
-            {show?<div onClick={()=>window.open(page_site,"_blank")}
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-              <img src={open} alt='open' className="w-1/2 h-1/2 object-contain"/>
-            </div>:null}
-            {source_code_link?<div onClick={()=>window.open(source_code_link,"_blank")}
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-              <img src={github} alt={github} className="w-1/2 h-1/2 object-contain"/>
-            </div>:null}
-            
-          </div>
-        </div>
+        <div className="relative w-full h-[230px]">
+  <a href={page_site} target="_blank" rel="noopener noreferrer">
+    <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl z-10 cursor-pointer relative" />
+  </a>
+  <div className="absolute inset-0 flex justify-end m-3 gap-2">
+    
+      {/* <a  href={page_site} target="_blank" className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer z-20">
+        <img src={open} alt='open' className="w-1/2 h-1/2 object-contain" />
+      </a> */}
+    
+    {source_code_link ? (
+      <a href={source_code_link} target="_blanck"  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer z-20">
+        <img src={github} alt={github} className="w-1/2 h-1/2 object-contain" />
+      </a>
+    ) : null}
+  </div>
+</div>
         <div className='mt-5 h-[10rem]'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
@@ -52,7 +55,7 @@ const ProjectCard=({index,name,description, tags, image, source_code_link,page_s
 
 const Works = () => {
   return (
-   <a href="#work">
+   <a >
       <motion.div variants={textVariant()} >
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>

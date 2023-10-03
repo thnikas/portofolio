@@ -34,13 +34,13 @@ import cvIcon from './cvIcon2.svg'
 import lnIcon from './lnIcon.svg'
 import emIcon from './emIcon.svg'
 import whIcon from './whIcon.svg'
-
+import pets from './pets2.png'
 export {
   lnIcon,
   emIcon,
   whIcon,
   logo,
-  
+  pets,
   cvIcon,
   github,
   menu,

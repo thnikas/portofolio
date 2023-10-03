@@ -18,7 +18,8 @@ import {
     sanity, 
     grafbase,
     beatshop,
-    figmaP
+    figmaP,
+    pets
   } from "../assets";
   
   export const navLinks = [
@@ -116,6 +117,28 @@ import {
   
   
   const projects = [
+    {
+      name: "PetCare",
+      description:
+        "PetCare: Find trusted pet sitters for your furry friends. Connect with experienced sitters in your area to ensure your pets get the attention they deserve. Browse profiles, read reviews, and book the perfect sitter for your needs.",
+      tags: [
+        {
+          name: "typescript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nextJs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "grafbase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pets,
+      source_code_link: "https://github.com/thnikas/petCare",
+      page_site:"https://pet-care-thnikas.vercel.app/"
+    },
     {
       name: "Amiibo Hub",
       description:
