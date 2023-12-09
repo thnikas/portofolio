@@ -120,7 +120,7 @@ import {
     {
       name: "PetCare",
       description:
-        "PetCare: Find trusted pet sitters for your furry friends. Connect with experienced sitters in your area to ensure your pets get the attention they deserve. Browse profiles, read reviews, and book the perfect sitter for your needs.",
+        "Find trusted pet sitters for your furry friends. Connect with experienced sitters in your area to ensure your pets get the attention they deserve. Browse profiles, read reviews, and book the perfect sitter for your needs.",
       tags: [
         {
           name: "typescript",
@@ -226,7 +226,7 @@ import {
       ],
       image: ThessParkingScreen,
       source_code_link: "https://github.com/thnikas/Thessparking",
-      page_site:'https://appetize.io/app/nuwy7ymvfbtrkqujq6mmnhwghq?device=pixel6&osVersion=12.0&scale=75&fbclid=IwAR0zsurzTH8UWVeS_kMPum5xJTTGDvkBzaQiQQRef_Xrc7hMji3bxSZrj1s'
+      page_site:'https://appetize.io/app/sivbiqp5kvxnyl3xiib2lrhfye?device=pixel6&osVersion=13.0'
     },
     {
       name: "ShopPulse",
