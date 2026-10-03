@@ -133,7 +133,7 @@ const projects = [
     ],
     image: blueStories,
     page_site:
-      "https://appetize.io/app/b_xy2zz7vk3lte5zcl5spapxxesm?device=pixel7&osVersion",
+      "https://appetize.io/app/b_i4cnf72jj6fpv56bqmbbvjyvie",
   },
   {
     name: "TreffU",
